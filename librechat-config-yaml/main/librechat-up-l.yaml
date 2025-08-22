@@ -2171,6 +2171,7 @@ endpoints:
           - grok-3-beta
           - grok-3-mini-beta
           - grok-4
+          - grok-4-0709
           - grok-beta
           - grok-vision-beta
         fetch: false
