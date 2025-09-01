@@ -1567,6 +1567,7 @@ endpoints:
           - thudm/glm-z1-9b:free
           - tngtech/deepseek-r1t-chimera:free
           - tngtech/deepseek-r1t2-chimera:free
+          - deepseek/deepseek-chat-v3.1:free
           - '---BETA---'
           - anthropic/claude-2.0:beta
           - anthropic/claude-2.1:beta
