@@ -9,6 +9,24 @@ interface:
   termsOfService:
     externalUrl: 'https://librechat.ai/tos'
     openNewTab: true
+  parameters: true
+  fileSearch: true
+
+  endpointsMenu: true
+  modelSelect: true
+  sidePanel: true
+  presets: true
+  prompts: true
+  bookmarks: true
+  multiConvo: true
+  agents: true
+  peoplePicker:
+    users: true
+    groups: true
+    roles: true
+  marketplace:
+      use: false
+  fileCitations: true
 
 registration:
   socialLogins:
@@ -2183,7 +2201,8 @@ endpoints:
       summaryModel: "grok-beta"
       forcePrompt: false
       modelDisplayLabel: "Grok"
-      
+
+
 fileConfig:
   endpoints:
     assistants:
