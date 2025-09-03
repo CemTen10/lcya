@@ -17,7 +17,7 @@ registration:
     - "github"
     - "google"
     - "openid"
-    
+
 endpoints:
   custom:
     # APIpie
