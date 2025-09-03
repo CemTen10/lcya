@@ -11,7 +11,6 @@ interface:
     openNewTab: true
   parameters: true
   fileSearch: true
-
   endpointsMenu: true
   modelSelect: true
   sidePanel: true
@@ -27,6 +26,40 @@ interface:
   marketplace:
     use: false
   fileCitations: true
+
+fileConfig:
+  endpoints:
+    assistants:
+      fileLimit: 5
+      fileSizeLimit: 10
+      totalSizeLimit: 500
+      supportedMimeTypes:
+        - "image/.*"
+        - "application/pdf"
+        - "text/markdown"
+        - "text/plain"
+    openAI:
+      disabled: true
+    default:
+      totalSizeLimit: 20
+    YourCustomEndpointName:
+      fileLimit: 500
+      fileSizeLimit: 10000
+      supportedMimeTypes:
+        - "image/.*"
+        - "text/markdown"
+        - "text/plain"
+  serverFileSizeLimit: 10000
+  avatarSizeLimit: 2
+  imageGeneration:
+    percentage: 100
+    px: 10240
+    
+supportedMimeTypes:
+    - "image/.*"
+    - "application/pdf"
+    - "text/markdown"
+    - "text/plain"
 
 registration:
   socialLogins:
@@ -2201,37 +2234,3 @@ endpoints:
       summaryModel: "grok-beta"
       forcePrompt: false
       modelDisplayLabel: "Grok"
-
-
-fileConfig:
-  endpoints:
-    assistants:
-      fileLimit: 5
-      fileSizeLimit: 10
-      totalSizeLimit: 500
-      supportedMimeTypes:
-        - "image/.*"
-        - "application/pdf"
-        - "text/markdown"
-        - "text/plain"
-    openAI:
-      disabled: true
-    default:
-      totalSizeLimit: 20
-    YourCustomEndpointName:
-      fileLimit: 500
-      fileSizeLimit: 10000
-      supportedMimeTypes:
-        - "image/.*"
-        - "text/markdown"
-        - "text/plain"
-  serverFileSizeLimit: 10000
-  avatarSizeLimit: 2
-  imageGeneration:
-    percentage: 100
-    px: 10240
-supportedMimeTypes:
-    - "image/.*"
-    - "application/pdf"
-    - "text/markdown"
-    - "text/plain"
