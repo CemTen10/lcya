@@ -17,11 +17,6 @@ registration:
     - "github"
     - "google"
     - "openid"
-
-supportedMimeTypes:
-    - "image/.*"
-    - "application/pdf"
-    - "text/.*"
     
 endpoints:
   custom:
