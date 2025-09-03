@@ -17,32 +17,12 @@ registration:
     - "github"
     - "google"
     - "openid"
+    
 fileConfig:
-  endpoints:
-    assistants:
-      fileLimit: 5
-      fileSizeLimit: 10
-      totalSizeLimit: 50
-      supportedMimeTypes:
-          - "image/.*"
-          - "application/pdf"
-          - "text/.*"
-    openAI:
-      disabled: true
-    default:
-      totalSizeLimit: 20
-    YourCustomEndpointName:
-      fileLimit: 50
-      fileSizeLimit: 1000
-      supportedMimeTypes:
-          - "image/.*"
-          - "application/pdf"
-          - "text/.*"
-  serverFileSizeLimit: 1000
-  avatarSizeLimit: 2
   imageGeneration:
     percentage: 100
     px: 1024
+    
 supportedMimeTypes:
     - "image/.*"
     - "application/pdf"
