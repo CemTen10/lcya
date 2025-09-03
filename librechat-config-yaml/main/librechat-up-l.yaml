@@ -17,12 +17,7 @@ registration:
     - "github"
     - "google"
     - "openid"
-    
-fileConfig:
-  imageGeneration:
-    percentage: 100
-    px: 1024
-    
+
 supportedMimeTypes:
     - "image/.*"
     - "application/pdf"
