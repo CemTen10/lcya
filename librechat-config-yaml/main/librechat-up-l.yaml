@@ -606,9 +606,14 @@ endpoints:
         default:
           - openrouter/auto
           - '---FREE---'
-          - openrouter/sherlock-dash-alpha
-          - openrouter/sherlock-think-alpha
-          - minimax/minimax-m2:free
+          - nex-agi/deepseek-v3.1-nex-n1:free
+          - tngtech/tng-r1t-chimera:free
+          - bytedance-seed/seedream-4.5
+          - sourceful/riverflow-v2-max-preview
+          - sourceful/riverflow-v2-standard-preview
+          - mistralai/devstral-2512:free
+          - moonshotai/kimi-k2:free
+          - tngtech/deepseek-r1t2-chimera:free
           - meituan/longcat-flash-chat:free
           - kwaipilot/kat-coder-pro:free
           - x-ai/grok-4-fast:free
